@@ -242,7 +242,7 @@ nav .btn:hover{
 }
 @media (max-width:567px){
     .header{
-        width: 85%;
+        width: 100%;
         margin: auto;
     }
     .carousel-inner .carousel-item img{
@@ -306,11 +306,7 @@ nav .btn:hover{
         
     }
     .place{
-        /* width: 350px; */
-        /* height: 450px; */
         transform: translate(40%);
-        /* background-color: red; */
-        /* margin-left: 50px; */
     }
     .place img{
         width: 250px;
