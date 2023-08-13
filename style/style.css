@@ -500,15 +500,9 @@ font-family: 'Work Sans', sans-serif;
        .box img{
         height: 200px;
        }
-       .box .btn{
-        width: 60px;
-        height: 30px;
-        font-size: 8px;
-       }
        .box p{
         font-size: 10px;
-       }     
-          
+       }      
 }
 /* End Box Section */
 /*Overlay Img*/
@@ -575,20 +569,23 @@ font-family: 'Work Sans', sans-serif;
 /*End Overlay Img*/
 
 @media (max-width: 567px) {
-        .card-img-1:hover,.card-img-2:hover,.card-img-3:hover{
-            transform: scale(0.9,0.9) translate(-18%);
-            transition: 0.5s;
-            cursor: pointer;
-        }
         .links-shadow{
             transform: translate(-10%);
         }
         .card-div .card-img{
             transform: translate(-27%);
            } 
-
+           .card-img:hover{
+            transform: scale(0.9,0.9) translate(-33%);
+            transition: 0.5s;
+            cursor: pointer;}
+            .box-btns{
+                width: 100%;
+               }
+               .box-btns .btn{
+                width: 60px;
+               }
     }
-
  .go-link{
     text-decoration: none;
     font-weight: bolder;
